@@ -3,6 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from sknn.mlp import Regressor, Layer
 
+# Test point
 Estacion_01 = pd.read_excel('PorvenirCompl.xlsx',sheet_name='Estacion_01',index_col=0)
 Estacion_01 = Estacion_01.rename(columns={'Agregado': 'Est1'})
 Estacion_02 = pd.read_excel('sanantonio.xlsx',sheet_name='Estacion_02',index_col=0)
